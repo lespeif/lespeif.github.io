@@ -1,0 +1,25 @@
+{
+    "remotePath": "/home/ubuntu/lespeif.github.io",
+    "host": "192.168.144.3",
+    "username": "ubuntu",
+    "password": "ubuntu",
+    "port": 22,
+    "secure": false,
+    "protocol": "sftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        ".vscode"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": "./"
+    }
+}

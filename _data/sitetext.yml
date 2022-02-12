@@ -7,100 +7,106 @@
 # How to use:
 # {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
 
-# English (default)
+# French (default)
 # -----------------
 fr: &DEFAULT_FR
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services"
+    title: "Professionnels et Expats Indonésiens en France"
+    text: "PEIF"
+    button: "En savoir plus"
+    buttonlink: "#about"
 
-  services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+  # services:
+  #   title: "Services"
+  #   text: "Lorem ipsum"
+  #   section: services
+  #   list:
+  #     - title: "E-Commerce"
+  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  #       icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+  #     - title: "Responsive Design"
+  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  #       icon: fas fa-laptop
+  #     - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+  #       desc: "Your description here, full **Markdown** support"
+  #       icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Publications"
+    text: "Nos dernières publications"
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Fermer"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    title: "Notre histoire"
+    text: "PEIF au fil du temps"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Création"
+        year: "Janvier 2022"
+        desc: "PEIF s'est créée dans le but de tisser un lien unique entre les indonésiens en France."
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
+      - title: "Première rencontre"
         year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        desc: "Première rencontre virtuelles dans le but de se connaître."
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+        # you can enforce the alignment
+        align: right
+      - title: "À suivre"
+        year: "2022..."
+        desc: "À suivre"
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "À suivre !"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "À propos de nous"
+    text: "Qui sommes-nous ?"
+    body: >
+      PEIF (\pɛif\) est une communauté dédiée aux talents indonésiens vivant en France. 
+      Elle s'adresse avant tout aux indonésiens présents dans le monde professionnel et 
+      se veut répondre au besoin d’un fort réseau de professionnels autour des sujets 
+      « vivre et travailler en France ».
+      La communauté PEIF a un double objectif qui est 
+      de créer un réseau de professionnels à fort impact sociétal et 
+      de donner de la visibilité aux talents indonésiens en France.
     section: about
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+  # clients:
+  #   section: clients
+  #   max-height: 100px
+  #   horizontal-scrolling: "" #"yes/no"
+  #   list:
+  #     - title: "envato"
+  #       url: https://github.com/raviriley/agency-jekyll-theme
+  #       logo: assets/img/clients/envato.jpg
+  #     - title: "designmodo"
+  #       url: https://github.com/raviriley/agency-jekyll-theme
+  #       logo: assets/img/clients/designmodo.jpg
+  #     - title: "themeforest"
+  #       url: https://github.com/raviriley/agency-jekyll-theme
+  #       logo: assets/img/clients/themeforest.jpg
+  #     - title: "Creative Market"
+  #       url: https://github.com/raviriley/agency-jekyll-theme
+  #       logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Notre Equipe"
+    text: >
+      NOUS RECHERCHONS DES MOTIVE(E)S POUR AGRANDIR NOTRE EQUIPE.
+      ÊTES-VOUS INTERESSE(E) ? NOUS CONTACTER PAR MAIL 👇👀
+    subtext: "Notre équipe ouvre sans relâche afin de créer une communauté à fort impact social et sociétal"
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "Rahenda Rosmedi"
+        role: "..."
+        image: assets/img/team/peif_logo.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -108,9 +114,9 @@ fr: &DEFAULT_FR
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+      - name: "VOUS ???!!!"
+        role: "REJOIGNEZ-NOUS !"
+        image: assets/img/team/you.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -118,9 +124,9 @@ fr: &DEFAULT_FR
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+      - name: "Jovita Melita"
+        role: "..."
+        image: assets/img/team/peif_logo.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -130,22 +136,11 @@ fr: &DEFAULT_FR
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
-    section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+    title: "Nous contacter"
+    email: "lespeif@gmail.com"
 
   footer:
-    legal: "Privacy Policy"
+    legal: "Vie Privée"
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"

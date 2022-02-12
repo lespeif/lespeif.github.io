@@ -11,19 +11,20 @@
 # -----------------
 fr: &DEFAULT_FR
   nav:
-    - title: "Services"
-      section: services
-    - title: "Portfolio"
+    # - title: "Services"
+    #   section: services
+    - title: "Publications"
+    # TODO : remplacer tout portfolio par posts
       section: portfolio
-    - title: "About"
+    - title: "À propos de nous"
       section: about
-    - title: "Timeline"
+    - title: "Histoire"
       section: timeline
-    - title: "Team"
+    - title: "Equipe"
       section: team
-    - title: "Contact"
+    - title: "Nous contacter"
       section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+    # - title: "Theme Source"
+    #   url: https://github.com/raviriley/agency-jekyll-theme/
 fr-FR:
   <<: *DEFAULT_FR

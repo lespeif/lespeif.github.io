@@ -1,0 +1,24 @@
+<!-- Contact -->
+<section class="page-section" id="{{ site.data.sitetext[site.locale].contact.section | default: "contact" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">
+          {{ site.data.sitetext[site.locale].contact.title | markdownify | default: Contact Us }}
+        </h2>
+        <!-- <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].contact.text | default: "" }}</h3> -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="section-subheading" style="text-align:center">
+          <a href="mailto:{{ site.data.sitetext[site.locale].contact.email }}">
+            {{ site.data.sitetext[site.locale].contact.email }}
+          </a>
+        </h3>
+        <br><br><br><br><br><br><br><br><br><br><br>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact -->

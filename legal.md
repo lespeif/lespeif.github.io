@@ -35,8 +35,3 @@ We may update this privacy policy from time to time for personal, operational, l
 **CONTACT US**
 
 For more information about our privacy practices or if you have questions, please contact us by email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
-
-
-**Copyrights**
-Background Photo by <a href="https://unsplash.com/@uray_z?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Uray Zulfikar</a> on <a href="https://unsplash.com/s/photos/jakarta?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  

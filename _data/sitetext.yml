@@ -140,6 +140,7 @@ fr: &DEFAULT_FR
     email: "lespeif@gmail.com"
 
   footer:
+    copyright: "Les Copyright ©"
     legal: "Vie Privée"
     social:
       - url: https://twitter.com

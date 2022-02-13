@@ -11,8 +11,8 @@
 # -----------------
 fr: &DEFAULT_FR
   nav:
-    # - title: "Services"
-    #   section: services
+    - title: "Accueil"
+      section: page-top
     - title: "Publications"
     # TODO : remplacer tout portfolio par posts
       section: portfolio
@@ -24,7 +24,6 @@ fr: &DEFAULT_FR
       section: team
     - title: "Nous contacter"
       section: contact
-    # - title: "Theme Source"
-    #   url: https://github.com/raviriley/agency-jekyll-theme/
+
 fr-FR:
   <<: *DEFAULT_FR

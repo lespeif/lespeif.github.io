@@ -92,12 +92,10 @@ fr: &DEFAULT_FR
   #       logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "Notre Equipe"
     text: >
-      NOUS RECHERCHONS DES MOTIVE(E)S POUR AGRANDIR NOTRE EQUIPE.
-      ÊTES-VOUS INTERESSE(E) ? NOUS CONTACTER PAR MAIL 👇👀
-    subtext: "Notre équipe ouvre sans relâche afin de créer une communauté à fort impact social et sociétal"
-    section: team
+      Notre équipe ouvre sans relâche afin de créer une communauté à fort impact social et sociétal
+    subtext: "📢📢📢 NOUS RECHERCHONS DES MOTIVE(E)S POUR AGRANDIR NOTRE EQUIPE.
+      ÊTES-VOUS INTERESSE(E) ? MERCI NOUS CONTACTER PAR MAIL 👇👀"
     people:
       - name: "Rahenda Rosmedi"
         role: "..."

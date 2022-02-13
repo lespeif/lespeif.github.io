@@ -113,22 +113,22 @@ fr: &DEFAULT_FR
         role: "REJOIGNEZ-NOUS !"
         image: assets/img/team/you.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          - url: mailto:lespeif@gmail.com
+            icon: fa fa-keyboard
+      - name: "Jovita Melita"
+        role: ""
+        image: assets/img/team/peif_logo.png
+        social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          - url: https://fr.linkedin.com/in/jovita-melita-a5671492/fr
             icon: fab fa-linkedin-in
-      # - name: "Jovita Melita"
-      #   role: "..."
-      #   image: assets/img/team/peif_logo.png
-      #   social:
-      #     - url: https://twitter.com
-      #       icon: fab fa-twitter
-      #     - url: https://facebook.com
-      #       icon: fab fa-facebook-f
-      #     - url: https://linkedin.com
-      #       icon: fab fa-linkedin-in
 
   contact:
     email: "lespeif@gmail.com"

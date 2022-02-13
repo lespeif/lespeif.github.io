@@ -6,11 +6,15 @@ title: Privacy Policy
 	<h2 class="section-heading text-uppercase">Liste des Copyrights</h2>
 </div>
 
-Site Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}
+
+* Site Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}
 
 
-Menara Monas, Header Background Photo by <a href="https://unsplash.com/@uray_z?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Uray Zulfikar</a> on <a href="https://unsplash.com/s/photos/jakarta?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+* Menara Monas, Header Background Photo by <a href="https://unsplash.com/@uray_z?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Uray Zulfikar</a> on <a href="https://unsplash.com/s/photos/jakarta?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+
+* Sunflower Photo by <a href="https://unsplash.com/@lmtrochezz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lina Trochez</a> on <a href="https://unsplash.com/s/photos/hand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 
 **NOUS CONTACTER**
 

@@ -32,15 +32,22 @@ fr: &DEFAULT_FR
   #       icon: fab fa-markdown
 
   portfolio:
-    title: "Publications"
     text: "Nos dernières publications"
-    section: portfolio
     closebutton: "Fermer"
 
+  about:
+    text: "Qui sommes-nous ?"
+    body: >
+      PEIF (\pɛif\) est une communauté dédiée aux talents indonésiens vivant en France. 
+      Elle s'adresse avant tout aux indonésiens présents dans le monde professionnel et 
+      se veut répondre au besoin d’un fort réseau de professionnels autour des sujets 
+      « vivre et travailler en France ».
+      La communauté PEIF a un double objectif qui est 
+      de créer un réseau de professionnels à fort impact sociétal et 
+      de donner de la visibilité aux talents indonésiens en France.
+
   timeline:
-    title: "Notre histoire"
     text: "PEIF au fil du temps"
-    section: timeline
     # left is the default
     #start_align: "left"
     events:
@@ -65,18 +72,6 @@ fr: &DEFAULT_FR
         align: right
     end: "À suivre !"
 
-  about:
-    title: "À propos de nous"
-    text: "Qui sommes-nous ?"
-    body: >
-      PEIF (\pɛif\) est une communauté dédiée aux talents indonésiens vivant en France. 
-      Elle s'adresse avant tout aux indonésiens présents dans le monde professionnel et 
-      se veut répondre au besoin d’un fort réseau de professionnels autour des sujets 
-      « vivre et travailler en France ».
-      La communauté PEIF a un double objectif qui est 
-      de créer un réseau de professionnels à fort impact sociétal et 
-      de donner de la visibilité aux talents indonésiens en France.
-    section: about
 
   # clients:
   #   section: clients
@@ -136,7 +131,6 @@ fr: &DEFAULT_FR
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Nous contacter"
     email: "lespeif@gmail.com"
 
   footer:

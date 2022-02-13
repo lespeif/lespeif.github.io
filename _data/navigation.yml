@@ -7,10 +7,15 @@
 # How to use:
 # {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
 
-# English (default)
+# French (default)
 # -----------------
+#
+# Note : 'section' is used by Liquid template as mapping key
+#
 fr: &DEFAULT_FR
   nav:
+    # - title: "Services"
+    #   section: services
     - title: "Accueil"
       section: page-top
     - title: "Publications"

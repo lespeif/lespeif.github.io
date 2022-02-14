@@ -101,7 +101,7 @@ fr: &DEFAULT_FR
     people:
       - name: "Rahenda Rosmedi"
         role: ""
-        image: assets/img/team/peif_logo.png
+        image: assets/img/team/rahenda.jpg
         social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter

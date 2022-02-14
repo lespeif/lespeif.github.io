@@ -3,9 +3,13 @@
   margin-bottom: 50px;
   text-align: center;
   img {
+    filter: grayscale(100%);
     width: 225px;
     height: 225px;
     border: 7px solid fade-out($black, 0.9);
+  }
+  img:hover {
+    filter: grayscale(0%);
   }
   h4 {
     margin-top: 25px;

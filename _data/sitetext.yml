@@ -95,40 +95,40 @@ fr: &DEFAULT_FR
 
   team:
     text: >
-      Notre équipe ouvre sans relâche afin de créer une communauté à fort impact social et sociétal
-    subtext: "📢📢📢 NOUS RECHERCHONS DES MOTIVE(E)S POUR AGRANDIR NOTRE EQUIPE.
-      ÊTES-VOUS INTERESSE(E) ? MERCI NOUS CONTACTER PAR MAIL 👇👀"
+      "📢📢📢 NOUS RECHERCHONS DES MOTIVE(E)S POUR AGRANDIR NOTRE EQUIPE.
+      ÊTES-VOUS INTERESSE(E) ? 👇👀"
+    subtext: Notre équipe anime la communauté PEIF afin de créer un réseau professionnel à fort impact social et sociétal
     people:
-      - name: "Rahenda Rosmedi"
-        role: ""
-        image: assets/img/team/rahenda.jpg
-        social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          - url: https://fr.linkedin.com/in/rahendarosmedi/fr
-            icon: fab fa-linkedin-in
-      - name: "VOUS ???!!!"
-        role: "REJOIGNEZ-NOUS !"
+      # - name: "Rahenda Rosmedi"
+      #   role: ""
+      #   image: assets/img/team/rahenda.jpg
+      #   social:
+      #     # - url: https://twitter.com
+      #     #   icon: fab fa-twitter
+      #     # - url: https://facebook.com
+      #     #   icon: fab fa-facebook-f
+      #     - url: https://fr.linkedin.com/in/rahendarosmedi/fr
+      #       icon: fab fa-linkedin-in
+      - name: "VOUS ?"
+        role: "REJOIGNEZ-NOUS en cliquant le bouton ci-dessous 👇"
         image: assets/img/team/you.jpg
         social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
           # - url: https://facebook.com
           #   icon: fab fa-facebook-f
-          - url: mailto:lespeif@gmail.com
+          - url: https://forms.gle/qFpByrN7qfrjSMQ5A
             icon: fa fa-keyboard
-      - name: "Jovita Melita"
-        role: ""
-        image: assets/img/team/peif_logo.png
-        social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          - url: https://fr.linkedin.com/in/jovita-melita-a5671492/fr
-            icon: fab fa-linkedin-in
+      # - name: "Jovita Melita"
+      #   role: ""
+      #   image: assets/img/team/peif_logo.png
+      #   social:
+      #     # - url: https://twitter.com
+      #     #   icon: fab fa-twitter
+      #     # - url: https://facebook.com
+      #     #   icon: fab fa-facebook-f
+      #     - url: https://fr.linkedin.com/in/jovita-melita-a5671492/fr
+      #       icon: fab fa-linkedin-in
 
   contact:
     email: "lespeif@gmail.com"
